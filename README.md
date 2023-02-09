@@ -10,9 +10,9 @@ You’ll find information about the code used in the logue SDK, the maxMSP / Pur
 
 ## Parameters
  
-| Oscillator     | Parameter A            | Parameter A            | Description                                       |
-| :------------: | :--------------------: | :--------------------: | :-----------------------------------------------: |
-| Bells          | 0 -> 100               |level mix between the 2 oscillators  (0:osc1 only)   |
-| Wind           | 0 -> 100                   |interval between the 2 oscillators   (in semi-tones) |
-| Crickets       | 0 -> 100                    |fine interval between the 2 oscillators              |
-| Clock          | 1 ->  5               |1: sine, 2: sawtooth, 3: parabola, 4: square, 5: off |
+| Oscillator     | Description                                             | Parameter A                      | Parameter B                                       |
+| :------------: | :-----------------------------------------------------: | :------------------------------: | :-----------------------------------------------: |
+| Bells          | Additive synthesis oscillator with amplitude modulation | Modulation depth                 | Modulation speed                                  |
+| Wind           | Subtractive synthesis oscillator with resonant filters  | Resonance amplitude on the pitch | Wind movements                                    |
+| Crickets       | Filter source model oscillator                          | Resonance frequency control      | Shape and speed of the pulse train                |
+| Clock          | Impulse additive synthesis oscillator                   | Pulse velocity                   | Pulse pitch frequencies (Random attribution)      |
