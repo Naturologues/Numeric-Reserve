@@ -7,3 +7,12 @@ You’ll find information about the code used in the logue SDK, the maxMSP / Pur
 - User Manuals for each oscillator
 - The Source Code of each oscillator
 - The equivalent of our oscillators translated into patches for MaxMSP and Max for Live
+
+## Parameters
+ 
+| Oscillator     | Parameter A            | Parameter A            | Description                                       |
+| :------------: | :--------------------: | :--------------------: | :-----------------------------------------------: |
+| Bells          | 0 -> 100               |level mix between the 2 oscillators  (0:osc1 only)   |
+| Wind           | 0 -> 100                   |interval between the 2 oscillators   (in semi-tones) |
+| Crickets       | 0 -> 100                    |fine interval between the 2 oscillators              |
+| Clock          | 1 ->  5               |1: sine, 2: sawtooth, 3: parabola, 4: square, 5: off |
