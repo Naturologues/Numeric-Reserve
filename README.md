@@ -16,3 +16,10 @@ You’ll find information about the code used in the logue SDK, the maxMSP / Pur
 | Wind           | Subtractive synthesis oscillator with resonant filters  | Resonance amplitude on the pitch | Wind movements                                    |
 | Crickets       | Filter source model oscillator                          | Resonance frequency control      | Shape and speed of the pulse train                |
 | Clock          | Impulse additive synthesis oscillator                   | Pulse velocity                   | Pulse pitch frequencies (Random attribution)      |
+
+## How to install
+ - Install and launch the NTS-1 digital librarian (https://www.korg.com/us/support/download/software/0/832/4424/) (or the Minilogue xd librarian [https://www.korg.com /us/support/download/software/0/811/4222/])
+ - Connect your NTS-1 to computer
+ - Make sure to select the correct MIDI In and MIDI Out ports in the librarian preferences
+ - Go to FILE -> IMPORT USER UNIT
+ - Import the .ntkdigunit file (or the .mnlgxdunit if you're using the Minilogue xd)
