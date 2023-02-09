@@ -26,4 +26,10 @@ You’ll find information about the code used in the logue SDK, the maxMSP / Pur
  - Click on SEND ALL to get the patches you've imported on your hardware
 
 ## How to setup the SDK (for environment devlopment)
-You can find all the informations you need on the logue SDK official Github (https://github.com/korginc/logue-sdk). Here are some other links that may help you to setup the environment (https://www.youtube.com/watch?v=ouGBnYXUT40) / (https://korgnts1beginnersguide.wordpress.com/setting-up-the-development-environment/)
+You can find all the informations you need on the logue SDK official Github (https://github.com/korginc/logue-sdk). Here are some other links that may help you to setup the environment : 
+- (https://www.youtube.com/watch?v=ouGBnYXUT40)
+- (https://korgnts1beginnersguide.wordpress.com/setting-up-the-development-environment/)
+
+## License
+
+This project is under CC BY-NC-ND 4.0 license (Attribution-NonCommercial-NoDerivatives 4.0 International). See LICENSE file.
