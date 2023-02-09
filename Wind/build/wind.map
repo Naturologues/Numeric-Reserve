@@ -1,0 +1,414 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+                              /workspace/nutekt-digital/Wind/build/obj/Wind.o (tanf)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o) (__ieee754_rem_pio2f)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o) (__kernel_rem_pio2f)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o) (__kernel_tanf)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o) (fabsf)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o) (floorf)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o) (scalbnf)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /workspace/nutekt-digital/Wind/build/obj/Wind.o
+ .group         0x0000000000000000        0xc /workspace/nutekt-digital/Wind/build/obj/Wind.o
+ .group         0x0000000000000000        0xc /workspace/nutekt-digital/Wind/build/obj/Wind.o
+ .group         0x0000000000000000        0xc /workspace/nutekt-digital/Wind/build/obj/Wind.o
+ .group         0x0000000000000000        0xc /workspace/nutekt-digital/Wind/build/obj/Wind.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+SRAM             0x0000000020000000 0x0000000000008000 xr
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /workspace/nutekt-digital/Wind/build/obj/_unit.o
+LOAD /workspace/nutekt-digital/Wind/build/obj/Wind.o
+
+.hooks          0x0000000020000000       0x40
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                _hooks_start = .
+ *(.hooks)
+ .hooks         0x0000000020000000       0x40 /workspace/nutekt-digital/Wind/build/obj/_unit.o
+                0x0000000020000040                . = ALIGN (0x4)
+                0x0000000020000040                _hooks_end = .
+
+.init_array     0x0000000020000040        0x4
+                0x0000000020000040                . = ALIGN (0x4)
+                0x0000000020000040                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array*)
+ .init_array    0x0000000020000040        0x4 /workspace/nutekt-digital/Wind/build/obj/Wind.o
+                0x0000000020000044                . = ALIGN (0x4)
+                0x0000000020000044                PROVIDE (__init_array_end = .)
+
+.text           0x0000000020000048     0x1600
+                0x0000000020000048                . = ALIGN (0x4)
+                0x0000000020000048                _text_start = .
+ *(.text)
+ .text          0x0000000020000048       0x5c /workspace/nutekt-digital/Wind/build/obj/_unit.o
+                0x000000002000004c                _hook_value
+                0x0000000020000050                _hook_mute
+                0x0000000020000056                _entry
+ .text          0x00000000200000a4       0xe8 /workspace/nutekt-digital/Wind/build/obj/Wind.o
+                0x00000000200000a4                _hook_init
+                0x00000000200000d8                _hook_cycle
+                0x0000000020000148                _hook_on
+                0x000000002000014a                _hook_off
+                0x000000002000014c                _hook_param
+ .text          0x000000002000018c       0x5c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+                0x000000002000018c                tanf
+ .text          0x00000000200001e8      0x298 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+                0x00000000200001e8                __ieee754_rem_pio2f
+ .text          0x0000000020000480      0x664 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+                0x0000000020000480                __kernel_rem_pio2f
+ .text          0x0000000020000ae4      0x1c8 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
+                0x0000000020000ae4                __kernel_tanf
+ .text          0x0000000020000cac       0x10 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+                0x0000000020000cac                fabsf
+ .text          0x0000000020000cbc       0x88 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+                0x0000000020000cbc                floorf
+ .text          0x0000000020000d44       0xe4 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+                0x0000000020000d44                scalbnf
+ *(.text.*)
+ .text._ZN3dsp6BiQuadC2Ev
+                0x0000000020000e28       0x12 /workspace/nutekt-digital/Wind/build/obj/Wind.o
+                0x0000000020000e28                dsp::BiQuad::BiQuad()
+                0x0000000020000e28                dsp::BiQuad::BiQuad()
+ *fill*         0x0000000020000e3a        0x2 
+ .text._ZN7genAlea10resetValueEv
+                0x0000000020000e3c       0x94 /workspace/nutekt-digital/Wind/build/obj/Wind.o
+                0x0000000020000e3c                genAlea::resetValue()
+ .text._ZN7genAlea8getValueEf
+                0x0000000020000ed0       0x60 /workspace/nutekt-digital/Wind/build/obj/Wind.o
+                0x0000000020000ed0                genAlea::getValue(float)
+ .text._ZN4Wind5startEv
+                0x0000000020000f30      0x23c /workspace/nutekt-digital/Wind/build/obj/Wind.o
+                0x0000000020000f30                Wind::start()
+ .text._ZN4Wind7processEv
+                0x000000002000116c      0x36c /workspace/nutekt-digital/Wind/build/obj/Wind.o
+                0x000000002000116c                Wind::process()
+ .text.startup  0x00000000200014d8      0x168 /workspace/nutekt-digital/Wind/build/obj/Wind.o
+ .text.startup.__stub
+                0x0000000020001640        0x8 linker stubs
+ *(.glue_7)
+ .glue_7        0x0000000020001648        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x0000000020001648        0x0 linker stubs
+ *(.gcc*)
+                0x0000000020001648                . = ALIGN (0x4)
+                0x0000000020001648                _text_end = .
+
+.vfp11_veneer   0x0000000020001648        0x0
+ .vfp11_veneer  0x0000000020001648        0x0 linker stubs
+
+.v4_bx          0x0000000020001648        0x0
+ .v4_bx         0x0000000020001648        0x0 linker stubs
+
+.iplt           0x0000000020001648        0x0
+ .iplt          0x0000000020001648        0x0 /workspace/nutekt-digital/Wind/build/obj/_unit.o
+
+.rodata         0x0000000020001648      0x3d0
+                0x0000000020001648                . = ALIGN (0x4)
+                0x0000000020001648                _rodata_start = .
+ *(.rodata)
+ .rodata        0x0000000020001648      0x398 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .rodata        0x00000000200019e0       0x38 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ *(.rodata.*)
+                0x0000000020001a18                . = ALIGN (0x4)
+                0x0000000020001a18                _rodata_end = .
+
+.rel.dyn        0x0000000020001a18        0x0
+ .rel.iplt      0x0000000020001a18        0x0 /workspace/nutekt-digital/Wind/build/obj/_unit.o
+
+.data           0x0000000020001a18        0x0
+                0x0000000020001a18                . = ALIGN (0x8)
+                0x0000000020001a18                _data_start = .
+ *(.data)
+ .data          0x0000000020001a18        0x0 /workspace/nutekt-digital/Wind/build/obj/_unit.o
+ .data          0x0000000020001a18        0x0 /workspace/nutekt-digital/Wind/build/obj/Wind.o
+ .data          0x0000000020001a18        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+ .data          0x0000000020001a18        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .data          0x0000000020001a18        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .data          0x0000000020001a18        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
+ .data          0x0000000020001a18        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .data          0x0000000020001a18        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .data          0x0000000020001a18        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+ *(.data.*)
+                0x0000000020001a18                . = ALIGN (0x8)
+                0x0000000020001a18                _data_end = .
+
+.igot.plt       0x0000000020001a18        0x0
+ .igot.plt      0x0000000020001a18        0x0 /workspace/nutekt-digital/Wind/build/obj/_unit.o
+
+.bss            0x0000000020001a18      0x17c
+                0x0000000020001a18                . = ALIGN (0x4)
+                0x0000000020001a18                _bss_start = .
+ *(.bss)
+ .bss           0x0000000020001a18        0x0 /workspace/nutekt-digital/Wind/build/obj/_unit.o
+ .bss           0x0000000020001a18      0x17c /workspace/nutekt-digital/Wind/build/obj/Wind.o
+ .bss           0x0000000020001b94        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+ .bss           0x0000000020001b94        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .bss           0x0000000020001b94        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .bss           0x0000000020001b94        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
+ .bss           0x0000000020001b94        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .bss           0x0000000020001b94        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .bss           0x0000000020001b94        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+ *(.bss.*)
+ *(COMMON)
+                0x0000000020001b94                . = ALIGN (0x4)
+                0x0000000020001b94                _bss_end = .
+
+.ARM.extab      0x0000000020001b94        0x0
+                0x0000000020001b94                . = ALIGN (0x4)
+                0x0000000020001b94                __extab_start = .
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0000000020001b94                . = ALIGN (0x4)
+                0x0000000020001b94                __extab_end = .
+
+.ARM.exidx      0x0000000020001b94        0x0
+                0x0000000020001b94                __exidx_start = .
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x0000000020001b94                __exidx_end = .
+
+.eh_frame_hdr   0x0000000020001b94        0x0
+                0x0000000020001b94                . = ALIGN (0x4)
+                0x0000000020001b94                _eh_frame_hdr_start = .
+ *(.eh_frame_hdr)
+                0x0000000020001b94                . = ALIGN (0x4)
+                0x0000000020001b94                _eh_frame_hdr_end = .
+
+.eh_frame       0x0000000020001b94        0x0
+                0x0000000020001b94                . = ALIGN (0x4)
+                0x0000000020001b94                _eh_frame_start = .
+ *(.eh_frame)
+                0x0000000020001b94                . = ALIGN (0x4)
+                0x0000000020001b94                _eh_frame_end = .
+LOAD /workspace/nutekt-digital/Wind/ld/osc_api.syms
+                0x000000000800f000                k_osc_api_version = 0x800f000
+                0x000000000800f004                k_osc_api_platform = 0x800f004
+                0x000000000800f100                midi_to_hz_lut_f = 0x800f100
+                0x000000000800f360                sqrtm2log_lut_f = 0x800f360
+                0x000000000800f764                tanpi_lut_f = 0x800f764
+                0x000000000800fb68                log_lut_f = 0x800fb68
+                0x000000000800ff6c                bitres_lut_f = 0x800ff6c
+                0x0000000008010170                wt_par_lut_f = 0x8010170
+                0x0000000008010f8c                wt_par_notes = 0x8010f8c
+                0x0000000008010f94                wt_sqr_lut_f = 0x8010f94
+                0x0000000008011db0                wt_sqr_notes = 0x8011db0
+                0x0000000008011db8                wt_saw_lut_f = 0x8011db8
+                0x0000000008012bd4                wt_saw_notes = 0x8012bd4
+                0x0000000008012bdc                wt_sine_lut_f = 0x8012bdc
+                0x0000000008012de0                schetzen_lut_f = 0x8012de0
+                0x0000000008012fe4                cubicsat_lut_f = 0x8012fe4
+                0x00000000080131e8                wavesA = 0x80131e8
+                0x000000000801546c                wavesB = 0x801546c
+                0x00000000080174ec                wavesC = 0x80174ec
+                0x000000000801915c                wavesD = 0x801915c
+                0x000000000801abc4                wavesE = 0x801abc4
+                0x000000000801ca3c                wavesF = 0x801ca3c
+                0x000000000801eabc                _osc_mcu_hash = 0x801eabc
+                0x000000000801eac8                _osc_bl_saw_idx = 0x801eac8
+                0x000000000801ebb0                _osc_bl_sqr_idx = 0x801ebb0
+                0x000000000801ec98                _osc_bl_par_idx = 0x801ec98
+                0x000000000801ed80                _osc_rand = 0x801ed80
+                0x000000000801edb8                _osc_white = 0x801edb8
+LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a
+LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a
+END GROUP
+OUTPUT(/workspace/nutekt-digital/Wind/build/wind.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000     0xa638
+ .debug_info    0x0000000000000000      0xfd2 /workspace/nutekt-digital/Wind/build/obj/_unit.o
+ .debug_info    0x0000000000000fd2     0x478c /workspace/nutekt-digital/Wind/build/obj/Wind.o
+ .debug_info    0x000000000000575e      0xa7c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+ .debug_info    0x00000000000061da      0xcbb /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .debug_info    0x0000000000006e95      0xcb6 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .debug_info    0x0000000000007b4b      0xbe5 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
+ .debug_info    0x0000000000008730      0xa00 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .debug_info    0x0000000000009130      0xa4a /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .debug_info    0x0000000000009b7a      0xabe /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+
+.debug_abbrev   0x0000000000000000     0x1b95
+ .debug_abbrev  0x0000000000000000      0x301 /workspace/nutekt-digital/Wind/build/obj/_unit.o
+ .debug_abbrev  0x0000000000000301      0x722 /workspace/nutekt-digital/Wind/build/obj/Wind.o
+ .debug_abbrev  0x0000000000000a23      0x290 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+ .debug_abbrev  0x0000000000000cb3      0x2bd /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .debug_abbrev  0x0000000000000f70      0x2c1 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .debug_abbrev  0x0000000000001231      0x280 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
+ .debug_abbrev  0x00000000000014b1      0x235 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .debug_abbrev  0x00000000000016e6      0x251 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .debug_abbrev  0x0000000000001937      0x25e /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+
+.debug_loc      0x0000000000000000     0x304c
+ .debug_loc     0x0000000000000000      0x129 /workspace/nutekt-digital/Wind/build/obj/_unit.o
+ .debug_loc     0x0000000000000129     0x123c /workspace/nutekt-digital/Wind/build/obj/Wind.o
+ .debug_loc     0x0000000000001365       0xc5 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+ .debug_loc     0x000000000000142a      0x655 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .debug_loc     0x0000000000001a7f      0xb2e /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .debug_loc     0x00000000000025ad      0x41d /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
+ .debug_loc     0x00000000000029ca       0x7c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .debug_loc     0x0000000000002a46      0x256 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .debug_loc     0x0000000000002c9c      0x3b0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+
+.debug_aranges  0x0000000000000000      0x150
+ .debug_aranges
+                0x0000000000000000       0x20 /workspace/nutekt-digital/Wind/build/obj/_unit.o
+ .debug_aranges
+                0x0000000000000020       0x50 /workspace/nutekt-digital/Wind/build/obj/Wind.o
+ .debug_aranges
+                0x0000000000000070       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+ .debug_aranges
+                0x0000000000000090       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .debug_aranges
+                0x00000000000000b0       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .debug_aranges
+                0x00000000000000d0       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
+ .debug_aranges
+                0x00000000000000f0       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .debug_aranges
+                0x0000000000000110       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .debug_aranges
+                0x0000000000000130       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+
+.debug_ranges   0x0000000000000000      0x858
+ .debug_ranges  0x0000000000000000       0x18 /workspace/nutekt-digital/Wind/build/obj/_unit.o
+ .debug_ranges  0x0000000000000018      0x760 /workspace/nutekt-digital/Wind/build/obj/Wind.o
+ .debug_ranges  0x0000000000000778       0x18 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+ .debug_ranges  0x0000000000000790       0x38 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .debug_ranges  0x00000000000007c8       0x38 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
+ .debug_ranges  0x0000000000000800       0x10 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .debug_ranges  0x0000000000000810       0x48 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+
+.debug_line     0x0000000000000000     0x2e12
+ .debug_line    0x0000000000000000      0x1d9 /workspace/nutekt-digital/Wind/build/obj/_unit.o
+ .debug_line    0x00000000000001d9     0x108b /workspace/nutekt-digital/Wind/build/obj/Wind.o
+ .debug_line    0x0000000000001264      0x23e /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+ .debug_line    0x00000000000014a2      0x53b /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .debug_line    0x00000000000019dd      0x95f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .debug_line    0x000000000000233c      0x392 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
+ .debug_line    0x00000000000026ce      0x1e1 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .debug_line    0x00000000000028af      0x2aa /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .debug_line    0x0000000000002b59      0x2b9 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+
+.debug_str      0x0000000000000000     0x215f
+ .debug_str     0x0000000000000000      0x894 /workspace/nutekt-digital/Wind/build/obj/_unit.o
+                                        0x93a (size before relaxing)
+ .debug_str     0x0000000000000894     0x13a4 /workspace/nutekt-digital/Wind/build/obj/Wind.o
+                                       0x1aab (size before relaxing)
+ .debug_str     0x0000000000001c38      0x1b3 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+                                        0x63f (size before relaxing)
+ .debug_str     0x0000000000001deb       0xad /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+                                        0x6ad (size before relaxing)
+ .debug_str     0x0000000000001e98       0x6d /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+                                        0x646 (size before relaxing)
+ .debug_str     0x0000000000001f05       0x3e /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
+                                        0x63d (size before relaxing)
+ .debug_str     0x0000000000001f43       0x33 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+                                        0x61a (size before relaxing)
+ .debug_str     0x0000000000001f76       0xa5 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+                                        0x63c (size before relaxing)
+ .debug_str     0x000000000000201b      0x144 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+                                        0x650 (size before relaxing)
+
+.comment        0x0000000000000000       0xa7
+ .comment       0x0000000000000000       0x59 /workspace/nutekt-digital/Wind/build/obj/_unit.o
+                                         0x5a (size before relaxing)
+ .comment       0x0000000000000059       0x5a /workspace/nutekt-digital/Wind/build/obj/Wind.o
+ .comment       0x0000000000000059       0x4e /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+                                         0x4f (size before relaxing)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+
+.ARM.attributes
+                0x0000000000000000       0x34
+ .ARM.attributes
+                0x0000000000000000       0x34 /workspace/nutekt-digital/Wind/build/obj/_unit.o
+ .ARM.attributes
+                0x0000000000000034       0x34 /workspace/nutekt-digital/Wind/build/obj/Wind.o
+ .ARM.attributes
+                0x0000000000000068       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+ .ARM.attributes
+                0x000000000000009c       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .ARM.attributes
+                0x00000000000000d0       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .ARM.attributes
+                0x0000000000000104       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
+ .ARM.attributes
+                0x0000000000000138       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .ARM.attributes
+                0x000000000000016c       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .ARM.attributes
+                0x00000000000001a0       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+
+.debug_frame    0x0000000000000000      0x3e4
+ .debug_frame   0x0000000000000000       0xa4 /workspace/nutekt-digital/Wind/build/obj/_unit.o
+ .debug_frame   0x00000000000000a4      0x19c /workspace/nutekt-digital/Wind/build/obj/Wind.o
+ .debug_frame   0x0000000000000240       0x38 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+ .debug_frame   0x0000000000000278       0x44 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .debug_frame   0x00000000000002bc       0x5c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .debug_frame   0x0000000000000318       0x50 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
+ .debug_frame   0x0000000000000368       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .debug_frame   0x0000000000000388       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .debug_frame   0x00000000000003a8       0x3c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+
+Cross Reference Table
+
+Symbol                                            File
+Wind::process()                                   /workspace/nutekt-digital/Wind/build/obj/Wind.o
+Wind::start()                                     /workspace/nutekt-digital/Wind/build/obj/Wind.o
+__ieee754_rem_pio2f                               /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+__init_array_end                                  /workspace/nutekt-digital/Wind/build/obj/_unit.o
+__init_array_start                                /workspace/nutekt-digital/Wind/build/obj/_unit.o
+__kernel_rem_pio2f                                /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+__kernel_tanf                                     /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+_bss_end                                          /workspace/nutekt-digital/Wind/build/obj/_unit.o
+_bss_start                                        /workspace/nutekt-digital/Wind/build/obj/_unit.o
+_entry                                            /workspace/nutekt-digital/Wind/build/obj/_unit.o
+_hook_cycle                                       /workspace/nutekt-digital/Wind/build/obj/Wind.o
+                                                  /workspace/nutekt-digital/Wind/build/obj/_unit.o
+_hook_init                                        /workspace/nutekt-digital/Wind/build/obj/Wind.o
+                                                  /workspace/nutekt-digital/Wind/build/obj/_unit.o
+_hook_mute                                        /workspace/nutekt-digital/Wind/build/obj/_unit.o
+_hook_off                                         /workspace/nutekt-digital/Wind/build/obj/Wind.o
+                                                  /workspace/nutekt-digital/Wind/build/obj/_unit.o
+_hook_on                                          /workspace/nutekt-digital/Wind/build/obj/Wind.o
+                                                  /workspace/nutekt-digital/Wind/build/obj/_unit.o
+_hook_param                                       /workspace/nutekt-digital/Wind/build/obj/Wind.o
+                                                  /workspace/nutekt-digital/Wind/build/obj/_unit.o
+_hook_value                                       /workspace/nutekt-digital/Wind/build/obj/_unit.o
+_osc_white                                        /workspace/nutekt-digital/Wind/build/obj/Wind.o
+dsp::BiQuad::BiQuad()                             /workspace/nutekt-digital/Wind/build/obj/Wind.o
+dsp::BiQuad::BiQuad()                             /workspace/nutekt-digital/Wind/build/obj/Wind.o
+fabsf                                             /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+floorf                                            /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+genAlea::getValue(float)                          /workspace/nutekt-digital/Wind/build/obj/Wind.o
+genAlea::resetValue()                             /workspace/nutekt-digital/Wind/build/obj/Wind.o
+midi_to_hz_lut_f                                  /workspace/nutekt-digital/Wind/build/obj/Wind.o
+scalbnf                                           /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+tanf                                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+                                                  /workspace/nutekt-digital/Wind/build/obj/Wind.o
