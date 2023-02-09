@@ -1,6 +1,6 @@
 # Numeric-Reserve # 1
 We provide here our numeric patches inspired by everyday sounds for the Korg Nutekt NTS-1 and Minilogue xd digital synthesizers. 
-You’ll find information about the code used in the logue SDK, the maxMSP / PureData patches used for the prototype sounds.
+You’ll find information about the code used in the logue SDK, the oscillators translated into MaxMSP patches, and some information about how to use our patches.
 
 ## Features
 - 4 Oscillators inspired by daily sounds, available for the NTS-1 and the Minilogue xd
