@@ -25,7 +25,7 @@ You’ll find information about the code used in the logue SDK, the oscillators 
  - Import the .ntkdigunit file (or the .mnlgxdunit if you're using the Minilogue xd)
  - Click on SEND ALL to get the patches you've imported on your hardware
 
-## How to setup the SDK (for environment devlopment)
+## How to setup the Logue SDK (for environment development)
 You can find all the informations you need on the logue SDK official Github (https://github.com/korginc/logue-sdk). Here are some other links that may help you to setup the environment : 
 - (https://www.youtube.com/watch?v=ouGBnYXUT40)
 - (https://korgnts1beginnersguide.wordpress.com/setting-up-the-development-environment/)
