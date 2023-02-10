@@ -1,0 +1,714 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+                              /workspace/nutekt-digital/Crickets/build/obj/Crickets.o (cosf)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+                              /workspace/nutekt-digital/Crickets/build/obj/Crickets.o (sinf)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+                              /workspace/nutekt-digital/Crickets/build/obj/Crickets.o (tanf)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_exp.o)
+                              /workspace/nutekt-digital/Crickets/build/obj/Crickets.o (expf)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_pow.o)
+                              /workspace/nutekt-digital/Crickets/build/obj/Crickets.o (powf)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_exp.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_exp.o) (__ieee754_expf)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_pow.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_pow.o) (__ieee754_powf)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o) (__ieee754_rem_pio2f)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_sqrt.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_pow.o) (__ieee754_sqrtf)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o) (__kernel_cosf)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o) (__kernel_rem_pio2f)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o) (__kernel_sinf)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o) (__kernel_tanf)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-s_lib_ver.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_exp.o) (__fdlib_version)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_pow.o) (fabsf)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_finite.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_exp.o) (finitef)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o) (floorf)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_nan.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_pow.o) (nanf)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_rint.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_pow.o) (rintf)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_pow.o) (scalbnf)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-errno.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_exp.o) (__errno)
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-impure.o)
+                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-errno.o) (_impure_ptr)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0xc /workspace/nutekt-digital/Crickets/build/obj/Crickets.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+SRAM             0x0000000020000000 0x0000000000008000 xr
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /workspace/nutekt-digital/Crickets/build/obj/_unit.o
+LOAD /workspace/nutekt-digital/Crickets/build/obj/Crickets.o
+
+.hooks          0x0000000020000000       0x40
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                _hooks_start = .
+ *(.hooks)
+ .hooks         0x0000000020000000       0x40 /workspace/nutekt-digital/Crickets/build/obj/_unit.o
+                0x0000000020000040                . = ALIGN (0x4)
+                0x0000000020000040                _hooks_end = .
+
+.init_array     0x0000000020000040        0x4
+                0x0000000020000040                . = ALIGN (0x4)
+                0x0000000020000040                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array*)
+ .init_array    0x0000000020000040        0x4 /workspace/nutekt-digital/Crickets/build/obj/Crickets.o
+                0x0000000020000044                . = ALIGN (0x4)
+                0x0000000020000044                PROVIDE (__init_array_end = .)
+
+.text           0x0000000020000044     0x1f28
+                0x0000000020000044                . = ALIGN (0x4)
+                0x0000000020000044                _text_start = .
+ *(.text)
+ .text          0x0000000020000044       0x5c /workspace/nutekt-digital/Crickets/build/obj/_unit.o
+                0x0000000020000048                _hook_value
+                0x000000002000004c                _hook_mute
+                0x0000000020000052                _entry
+ .text          0x00000000200000a0      0x3c0 /workspace/nutekt-digital/Crickets/build/obj/Crickets.o
+                0x00000000200000a0                _hook_init
+                0x0000000020000134                _hook_cycle
+                0x0000000020000414                _hook_on
+                0x000000002000042c                _hook_off
+                0x000000002000042e                _hook_param
+ .text          0x0000000020000460       0x90 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+                0x0000000020000460                cosf
+ .text          0x00000000200004f0       0x94 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+                0x00000000200004f0                sinf
+ .text          0x0000000020000584       0x5c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+                0x0000000020000584                tanf
+ .text          0x00000000200005e0       0x7c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_exp.o)
+                0x00000000200005e0                expf
+ .text          0x000000002000065c      0x140 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_pow.o)
+                0x000000002000065c                powf
+ .text          0x000000002000079c      0x1e4 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_exp.o)
+                0x000000002000079c                __ieee754_expf
+ .text          0x0000000020000980      0x614 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_pow.o)
+                0x0000000020000980                __ieee754_powf
+ .text          0x0000000020000f94      0x298 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+                0x0000000020000f94                __ieee754_rem_pio2f
+ .text          0x000000002000122c        0x8 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_sqrt.o)
+                0x000000002000122c                __ieee754_sqrtf
+ .text          0x0000000020001234      0x104 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+                0x0000000020001234                __kernel_cosf
+ .text          0x0000000020001338      0x664 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+                0x0000000020001338                __kernel_rem_pio2f
+ .text          0x000000002000199c       0x90 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+                0x000000002000199c                __kernel_sinf
+ .text          0x0000000020001a2c      0x1c8 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
+                0x0000000020001a2c                __kernel_tanf
+ .text          0x0000000020001bf4        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-s_lib_ver.o)
+ .text          0x0000000020001bf4       0x10 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+                0x0000000020001bf4                fabsf
+ .text          0x0000000020001c04       0x14 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_finite.o)
+                0x0000000020001c04                finitef
+ .text          0x0000000020001c18       0x88 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+                0x0000000020001c18                floorf
+ .text          0x0000000020001ca0        0xc /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_nan.o)
+                0x0000000020001ca0                nanf
+ .text          0x0000000020001cac       0xb8 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_rint.o)
+                0x0000000020001cac                rintf
+ .text          0x0000000020001d64       0xe4 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+                0x0000000020001d64                scalbnf
+ .text          0x0000000020001e48        0xc /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-errno.o)
+                0x0000000020001e48                __errno
+ .text          0x0000000020001e54        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-impure.o)
+ *(.text.*)
+ .text._ZN11ResFilterFM7processEf
+                0x0000000020001e54       0xdc /workspace/nutekt-digital/Crickets/build/obj/Crickets.o
+                0x0000000020001e54                ResFilterFM::process(float)
+ .text.startup  0x0000000020001f30       0x3c /workspace/nutekt-digital/Crickets/build/obj/Crickets.o
+ *(.glue_7)
+ .glue_7        0x0000000020001f6c        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x0000000020001f6c        0x0 linker stubs
+ *(.gcc*)
+                0x0000000020001f6c                . = ALIGN (0x4)
+                0x0000000020001f6c                _text_end = .
+
+.vfp11_veneer   0x0000000020001f6c        0x0
+ .vfp11_veneer  0x0000000020001f6c        0x0 linker stubs
+
+.v4_bx          0x0000000020001f6c        0x0
+ .v4_bx         0x0000000020001f6c        0x0 linker stubs
+
+.iplt           0x0000000020001f6c        0x0
+ .iplt          0x0000000020001f6c        0x0 /workspace/nutekt-digital/Crickets/build/obj/_unit.o
+
+.rodata         0x0000000020001f6c      0x3f8
+                0x0000000020001f6c                . = ALIGN (0x4)
+                0x0000000020001f6c                _rodata_start = .
+ *(.rodata)
+ .rodata        0x0000000020001f6c       0x18 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_exp.o)
+ .rodata        0x0000000020001f84      0x398 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .rodata        0x000000002000231c       0x38 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .rodata        0x0000000020002354        0x8 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_rint.o)
+ .rodata        0x000000002000235c        0x4 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-impure.o)
+                0x000000002000235c                _global_impure_ptr
+ *(.rodata.*)
+ .rodata.str1.4
+                0x0000000020002360        0x1 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_pow.o)
+                0x0000000020002364                . = ALIGN (0x4)
+ *fill*         0x0000000020002361        0x3 
+                0x0000000020002364                _rodata_end = .
+
+.rel.dyn        0x0000000020002364        0x0
+ .rel.iplt      0x0000000020002364        0x0 /workspace/nutekt-digital/Crickets/build/obj/_unit.o
+
+.data           0x0000000020002368      0x538
+                0x0000000020002368                . = ALIGN (0x8)
+                0x0000000020002368                _data_start = .
+ *(.data)
+ .data          0x0000000020002368        0x0 /workspace/nutekt-digital/Crickets/build/obj/_unit.o
+ .data          0x0000000020002368       0xfc /workspace/nutekt-digital/Crickets/build/obj/Crickets.o
+ *fill*         0x0000000020002464        0x4 
+ .data          0x0000000020002468        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+ .data          0x0000000020002468        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+ .data          0x0000000020002468        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+ .data          0x0000000020002468        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_exp.o)
+ .data          0x0000000020002468        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_pow.o)
+ .data          0x0000000020002468        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_exp.o)
+ .data          0x0000000020002468        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_pow.o)
+ .data          0x0000000020002468        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .data          0x0000000020002468        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_sqrt.o)
+ .data          0x0000000020002468        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+ .data          0x0000000020002468        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .data          0x0000000020002468        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+ .data          0x0000000020002468        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
+ .data          0x0000000020002468        0x1 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-s_lib_ver.o)
+                0x0000000020002468                __fdlib_version
+ *fill*         0x0000000020002469        0x7 
+ .data          0x0000000020002470        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .data          0x0000000020002470        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_finite.o)
+ .data          0x0000000020002470        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .data          0x0000000020002470        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_nan.o)
+ .data          0x0000000020002470        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_rint.o)
+ .data          0x0000000020002470        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+ .data          0x0000000020002470        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-errno.o)
+ .data          0x0000000020002470      0x430 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-impure.o)
+                0x0000000020002470                _impure_ptr
+ *(.data.*)
+                0x00000000200028a0                . = ALIGN (0x8)
+                0x00000000200028a0                _data_end = .
+
+.igot.plt       0x00000000200028a0        0x0
+ .igot.plt      0x00000000200028a0        0x0 /workspace/nutekt-digital/Crickets/build/obj/_unit.o
+
+.bss            0x00000000200028a0       0x90
+                0x00000000200028a0                . = ALIGN (0x4)
+                0x00000000200028a0                _bss_start = .
+ *(.bss)
+ .bss           0x00000000200028a0        0x0 /workspace/nutekt-digital/Crickets/build/obj/_unit.o
+ .bss           0x00000000200028a0       0x90 /workspace/nutekt-digital/Crickets/build/obj/Crickets.o
+                0x00000000200028dc                lowpass1
+                0x00000000200028f8                highpass
+                0x0000000020002914                lowpass2
+ .bss           0x0000000020002930        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+ .bss           0x0000000020002930        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+ .bss           0x0000000020002930        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+ .bss           0x0000000020002930        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_exp.o)
+ .bss           0x0000000020002930        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_pow.o)
+ .bss           0x0000000020002930        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_exp.o)
+ .bss           0x0000000020002930        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_pow.o)
+ .bss           0x0000000020002930        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .bss           0x0000000020002930        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_sqrt.o)
+ .bss           0x0000000020002930        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+ .bss           0x0000000020002930        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .bss           0x0000000020002930        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+ .bss           0x0000000020002930        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
+ .bss           0x0000000020002930        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-s_lib_ver.o)
+ .bss           0x0000000020002930        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .bss           0x0000000020002930        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_finite.o)
+ .bss           0x0000000020002930        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .bss           0x0000000020002930        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_nan.o)
+ .bss           0x0000000020002930        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_rint.o)
+ .bss           0x0000000020002930        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+ .bss           0x0000000020002930        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-errno.o)
+ .bss           0x0000000020002930        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-impure.o)
+ *(.bss.*)
+ *(COMMON)
+                0x0000000020002930                . = ALIGN (0x4)
+                0x0000000020002930                _bss_end = .
+
+.ARM.extab      0x0000000020002930        0x0
+                0x0000000020002930                . = ALIGN (0x4)
+                0x0000000020002930                __extab_start = .
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0000000020002930                . = ALIGN (0x4)
+                0x0000000020002930                __extab_end = .
+
+.ARM.exidx      0x0000000020002930        0x0
+                0x0000000020002930                __exidx_start = .
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x0000000020002930                __exidx_end = .
+
+.eh_frame_hdr   0x0000000020002930        0x0
+                0x0000000020002930                . = ALIGN (0x4)
+                0x0000000020002930                _eh_frame_hdr_start = .
+ *(.eh_frame_hdr)
+                0x0000000020002930                . = ALIGN (0x4)
+                0x0000000020002930                _eh_frame_hdr_end = .
+
+.eh_frame       0x0000000020002930        0x0
+                0x0000000020002930                . = ALIGN (0x4)
+                0x0000000020002930                _eh_frame_start = .
+ *(.eh_frame)
+                0x0000000020002930                . = ALIGN (0x4)
+                0x0000000020002930                _eh_frame_end = .
+LOAD /workspace/nutekt-digital/Crickets/ld/osc_api.syms
+                0x000000000800f000                k_osc_api_version = 0x800f000
+                0x000000000800f004                k_osc_api_platform = 0x800f004
+                0x000000000800f100                midi_to_hz_lut_f = 0x800f100
+                0x000000000800f360                sqrtm2log_lut_f = 0x800f360
+                0x000000000800f764                tanpi_lut_f = 0x800f764
+                0x000000000800fb68                log_lut_f = 0x800fb68
+                0x000000000800ff6c                bitres_lut_f = 0x800ff6c
+                0x0000000008010170                wt_par_lut_f = 0x8010170
+                0x0000000008010f8c                wt_par_notes = 0x8010f8c
+                0x0000000008010f94                wt_sqr_lut_f = 0x8010f94
+                0x0000000008011db0                wt_sqr_notes = 0x8011db0
+                0x0000000008011db8                wt_saw_lut_f = 0x8011db8
+                0x0000000008012bd4                wt_saw_notes = 0x8012bd4
+                0x0000000008012bdc                wt_sine_lut_f = 0x8012bdc
+                0x0000000008012de0                schetzen_lut_f = 0x8012de0
+                0x0000000008012fe4                cubicsat_lut_f = 0x8012fe4
+                0x00000000080131e8                wavesA = 0x80131e8
+                0x000000000801546c                wavesB = 0x801546c
+                0x00000000080174ec                wavesC = 0x80174ec
+                0x000000000801915c                wavesD = 0x801915c
+                0x000000000801abc4                wavesE = 0x801abc4
+                0x000000000801ca3c                wavesF = 0x801ca3c
+                0x000000000801eabc                _osc_mcu_hash = 0x801eabc
+                0x000000000801eac8                _osc_bl_saw_idx = 0x801eac8
+                0x000000000801ebb0                _osc_bl_sqr_idx = 0x801ebb0
+                0x000000000801ec98                _osc_bl_par_idx = 0x801ec98
+                0x000000000801ed80                _osc_rand = 0x801ed80
+                0x000000000801edb8                _osc_white = 0x801edb8
+LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a
+LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a
+END GROUP
+OUTPUT(/workspace/nutekt-digital/Crickets/build/Crickets.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000    0x13d60
+ .debug_info    0x0000000000000000      0xfd2 /workspace/nutekt-digital/Crickets/build/obj/_unit.o
+ .debug_info    0x0000000000000fd2     0x3e02 /workspace/nutekt-digital/Crickets/build/obj/Crickets.o
+ .debug_info    0x0000000000004dd4      0xaac /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+ .debug_info    0x0000000000005880      0xab7 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+ .debug_info    0x0000000000006337      0xa7c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+ .debug_info    0x0000000000006db3      0xa3b /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_exp.o)
+ .debug_info    0x00000000000077ee      0xac4 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_pow.o)
+ .debug_info    0x00000000000082b2      0xbe8 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_exp.o)
+ .debug_info    0x0000000000008e9a     0x1111 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_pow.o)
+ .debug_info    0x0000000000009fab      0xcbb /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .debug_info    0x000000000000ac66      0x982 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_sqrt.o)
+ .debug_info    0x000000000000b5e8      0xaef /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+ .debug_info    0x000000000000c0d7      0xcb6 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .debug_info    0x000000000000cd8d      0xab4 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+ .debug_info    0x000000000000d841      0xbe5 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
+ .debug_info    0x000000000000e426      0x94b /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-s_lib_ver.o)
+ .debug_info    0x000000000000ed71      0xa00 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .debug_info    0x000000000000f771      0x9e4 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_finite.o)
+ .debug_info    0x0000000000010155      0xa4a /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .debug_info    0x0000000000010b9f      0x97a /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_nan.o)
+ .debug_info    0x0000000000011519      0xb0c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_rint.o)
+ .debug_info    0x0000000000012025      0xabe /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+ .debug_info    0x0000000000012ae3      0x953 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-errno.o)
+ .debug_info    0x0000000000013436      0x92a /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-impure.o)
+
+.debug_abbrev   0x0000000000000000     0x3cf5
+ .debug_abbrev  0x0000000000000000      0x301 /workspace/nutekt-digital/Crickets/build/obj/_unit.o
+ .debug_abbrev  0x0000000000000301      0x651 /workspace/nutekt-digital/Crickets/build/obj/Crickets.o
+ .debug_abbrev  0x0000000000000952      0x285 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+ .debug_abbrev  0x0000000000000bd7      0x290 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+ .debug_abbrev  0x0000000000000e67      0x290 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+ .debug_abbrev  0x00000000000010f7      0x26f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_exp.o)
+ .debug_abbrev  0x0000000000001366      0x271 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_pow.o)
+ .debug_abbrev  0x00000000000015d7      0x29d /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_exp.o)
+ .debug_abbrev  0x0000000000001874      0x2ed /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_pow.o)
+ .debug_abbrev  0x0000000000001b61      0x2bd /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .debug_abbrev  0x0000000000001e1e      0x20d /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_sqrt.o)
+ .debug_abbrev  0x000000000000202b      0x246 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+ .debug_abbrev  0x0000000000002271      0x2c1 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .debug_abbrev  0x0000000000002532      0x25d /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+ .debug_abbrev  0x000000000000278f      0x280 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
+ .debug_abbrev  0x0000000000002a0f      0x1d4 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-s_lib_ver.o)
+ .debug_abbrev  0x0000000000002be3      0x235 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .debug_abbrev  0x0000000000002e18      0x227 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_finite.o)
+ .debug_abbrev  0x000000000000303f      0x251 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .debug_abbrev  0x0000000000003290      0x207 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_nan.o)
+ .debug_abbrev  0x0000000000003497      0x272 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_rint.o)
+ .debug_abbrev  0x0000000000003709      0x25e /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+ .debug_abbrev  0x0000000000003967      0x1d6 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-errno.o)
+ .debug_abbrev  0x0000000000003b3d      0x1b8 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-impure.o)
+
+.debug_loc      0x0000000000000000     0x46b7
+ .debug_loc     0x0000000000000000      0x129 /workspace/nutekt-digital/Crickets/build/obj/_unit.o
+ .debug_loc     0x0000000000000129      0x8ac /workspace/nutekt-digital/Crickets/build/obj/Crickets.o
+ .debug_loc     0x00000000000009d5       0xd2 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+ .debug_loc     0x0000000000000aa7       0xd2 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+ .debug_loc     0x0000000000000b79       0xc5 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+ .debug_loc     0x0000000000000c3e       0x84 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_exp.o)
+ .debug_loc     0x0000000000000cc2      0x11c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_pow.o)
+ .debug_loc     0x0000000000000dde      0x447 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_exp.o)
+ .debug_loc     0x0000000000001225     0x10a3 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_pow.o)
+ .debug_loc     0x00000000000022c8      0x655 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .debug_loc     0x000000000000291d       0x3e /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_sqrt.o)
+ .debug_loc     0x000000000000295b      0x233 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+ .debug_loc     0x0000000000002b8e      0xb2e /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .debug_loc     0x00000000000036bc      0x12f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+ .debug_loc     0x00000000000037eb      0x41d /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
+ .debug_loc     0x0000000000003c08       0x7c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .debug_loc     0x0000000000003c84       0x44 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_finite.o)
+ .debug_loc     0x0000000000003cc8      0x256 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .debug_loc     0x0000000000003f1e      0x3e9 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_rint.o)
+ .debug_loc     0x0000000000004307      0x3b0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+
+.debug_aranges  0x0000000000000000      0x300
+ .debug_aranges
+                0x0000000000000000       0x20 /workspace/nutekt-digital/Crickets/build/obj/_unit.o
+ .debug_aranges
+                0x0000000000000020       0x30 /workspace/nutekt-digital/Crickets/build/obj/Crickets.o
+ .debug_aranges
+                0x0000000000000050       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+ .debug_aranges
+                0x0000000000000070       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+ .debug_aranges
+                0x0000000000000090       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+ .debug_aranges
+                0x00000000000000b0       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_exp.o)
+ .debug_aranges
+                0x00000000000000d0       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_pow.o)
+ .debug_aranges
+                0x00000000000000f0       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_exp.o)
+ .debug_aranges
+                0x0000000000000110       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_pow.o)
+ .debug_aranges
+                0x0000000000000130       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .debug_aranges
+                0x0000000000000150       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_sqrt.o)
+ .debug_aranges
+                0x0000000000000170       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+ .debug_aranges
+                0x0000000000000190       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .debug_aranges
+                0x00000000000001b0       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+ .debug_aranges
+                0x00000000000001d0       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
+ .debug_aranges
+                0x00000000000001f0       0x18 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-s_lib_ver.o)
+ .debug_aranges
+                0x0000000000000208       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .debug_aranges
+                0x0000000000000228       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_finite.o)
+ .debug_aranges
+                0x0000000000000248       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .debug_aranges
+                0x0000000000000268       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_nan.o)
+ .debug_aranges
+                0x0000000000000288       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_rint.o)
+ .debug_aranges
+                0x00000000000002a8       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+ .debug_aranges
+                0x00000000000002c8       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-errno.o)
+ .debug_aranges
+                0x00000000000002e8       0x18 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-impure.o)
+
+.debug_ranges   0x0000000000000000      0x608
+ .debug_ranges  0x0000000000000000       0x18 /workspace/nutekt-digital/Crickets/build/obj/_unit.o
+ .debug_ranges  0x0000000000000018      0x2c8 /workspace/nutekt-digital/Crickets/build/obj/Crickets.o
+ .debug_ranges  0x00000000000002e0       0x18 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+ .debug_ranges  0x00000000000002f8       0x18 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+ .debug_ranges  0x0000000000000310       0x18 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+ .debug_ranges  0x0000000000000328       0x50 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_exp.o)
+ .debug_ranges  0x0000000000000378      0x190 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_pow.o)
+ .debug_ranges  0x0000000000000508       0x38 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .debug_ranges  0x0000000000000540       0x10 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_sqrt.o)
+ .debug_ranges  0x0000000000000550       0x38 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
+ .debug_ranges  0x0000000000000588       0x10 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .debug_ranges  0x0000000000000598       0x10 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_finite.o)
+ .debug_ranges  0x00000000000005a8       0x18 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_rint.o)
+ .debug_ranges  0x00000000000005c0       0x48 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+
+.debug_line     0x0000000000000000     0x4d07
+ .debug_line    0x0000000000000000      0x1dd /workspace/nutekt-digital/Crickets/build/obj/_unit.o
+ .debug_line    0x00000000000001dd      0xb2a /workspace/nutekt-digital/Crickets/build/obj/Crickets.o
+ .debug_line    0x0000000000000d07      0x262 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+ .debug_line    0x0000000000000f69      0x262 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+ .debug_line    0x00000000000011cb      0x23e /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+ .debug_line    0x0000000000001409      0x1e3 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_exp.o)
+ .debug_line    0x00000000000015ec      0x2a7 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_pow.o)
+ .debug_line    0x0000000000001893      0x3a0 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_exp.o)
+ .debug_line    0x0000000000001c33      0x85c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_pow.o)
+ .debug_line    0x000000000000248f      0x53b /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .debug_line    0x00000000000029ca      0x147 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_sqrt.o)
+ .debug_line    0x0000000000002b11      0x2a9 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+ .debug_line    0x0000000000002dba      0x95f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .debug_line    0x0000000000003719      0x24d /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+ .debug_line    0x0000000000003966      0x392 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
+ .debug_line    0x0000000000003cf8      0x127 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-s_lib_ver.o)
+ .debug_line    0x0000000000003e1f      0x1e1 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .debug_line    0x0000000000004000      0x1a9 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_finite.o)
+ .debug_line    0x00000000000041a9      0x2aa /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .debug_line    0x0000000000004453      0x13c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_nan.o)
+ .debug_line    0x000000000000458f      0x2d4 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_rint.o)
+ .debug_line    0x0000000000004863      0x2b9 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+ .debug_line    0x0000000000004b1c      0x108 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-errno.o)
+ .debug_line    0x0000000000004c24       0xe3 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-impure.o)
+
+.debug_str      0x0000000000000000     0x24a5
+ .debug_str     0x0000000000000000      0x89c /workspace/nutekt-digital/Crickets/build/obj/_unit.o
+                                        0x942 (size before relaxing)
+ .debug_str     0x000000000000089c     0x1223 /workspace/nutekt-digital/Crickets/build/obj/Crickets.o
+                                       0x1938 (size before relaxing)
+ .debug_str     0x0000000000001abf      0x1c1 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+                                        0x64d (size before relaxing)
+ .debug_str     0x0000000000001c80       0x32 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+                                        0x64d (size before relaxing)
+ .debug_str     0x0000000000001cb2       0x40 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+                                        0x63f (size before relaxing)
+ .debug_str     0x0000000000001cf2       0x78 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_exp.o)
+                                        0x630 (size before relaxing)
+ .debug_str     0x0000000000001d6a       0x41 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_pow.o)
+                                        0x61e (size before relaxing)
+ .debug_str     0x0000000000001dab       0x5c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_exp.o)
+                                        0x651 (size before relaxing)
+ .debug_str     0x0000000000001e07       0x97 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_pow.o)
+                                        0x6a1 (size before relaxing)
+ .debug_str     0x0000000000001e9e       0xa3 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+                                        0x6ad (size before relaxing)
+ .debug_str     0x0000000000001f41       0x9f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_sqrt.o)
+                                        0x606 (size before relaxing)
+ .debug_str     0x0000000000001fe0       0x32 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+                                        0x62b (size before relaxing)
+ .debug_str     0x0000000000002012       0x65 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+                                        0x646 (size before relaxing)
+ .debug_str     0x0000000000002077       0x32 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+                                        0x62b (size before relaxing)
+ .debug_str     0x00000000000020a9       0x3e /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
+                                        0x63d (size before relaxing)
+ .debug_str     0x00000000000020e7      0x132 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-s_lib_ver.o)
+                                        0x5f1 (size before relaxing)
+ .debug_str     0x0000000000002219       0x33 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+                                        0x61a (size before relaxing)
+ .debug_str     0x000000000000224c       0x37 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_finite.o)
+                                        0x634 (size before relaxing)
+ .debug_str     0x0000000000002283       0x3e /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+                                        0x63c (size before relaxing)
+ .debug_str     0x00000000000022c1       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_nan.o)
+                                        0x5fa (size before relaxing)
+ .debug_str     0x00000000000022f5       0x43 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_rint.o)
+                                        0x63b (size before relaxing)
+ .debug_str     0x0000000000002338       0x44 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+                                        0x650 (size before relaxing)
+ .debug_str     0x000000000000237c       0x8e /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-errno.o)
+                                        0x5b2 (size before relaxing)
+ .debug_str     0x000000000000240a       0x9b /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-impure.o)
+                                        0x5a0 (size before relaxing)
+
+.comment        0x0000000000000000       0xa7
+ .comment       0x0000000000000000       0x59 /workspace/nutekt-digital/Crickets/build/obj/_unit.o
+                                         0x5a (size before relaxing)
+ .comment       0x0000000000000059       0x5a /workspace/nutekt-digital/Crickets/build/obj/Crickets.o
+ .comment       0x0000000000000059       0x4e /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+                                         0x4f (size before relaxing)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_exp.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_pow.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_exp.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_pow.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_sqrt.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-s_lib_ver.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_finite.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_nan.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_rint.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-errno.o)
+ .comment       0x00000000000000a7       0x4f /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-impure.o)
+
+.ARM.attributes
+                0x0000000000000000       0x34
+ .ARM.attributes
+                0x0000000000000000       0x34 /workspace/nutekt-digital/Crickets/build/obj/_unit.o
+ .ARM.attributes
+                0x0000000000000034       0x34 /workspace/nutekt-digital/Crickets/build/obj/Crickets.o
+ .ARM.attributes
+                0x0000000000000068       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+ .ARM.attributes
+                0x000000000000009c       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+ .ARM.attributes
+                0x00000000000000d0       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+ .ARM.attributes
+                0x0000000000000104       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_exp.o)
+ .ARM.attributes
+                0x0000000000000138       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_pow.o)
+ .ARM.attributes
+                0x000000000000016c       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_exp.o)
+ .ARM.attributes
+                0x00000000000001a0       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_pow.o)
+ .ARM.attributes
+                0x00000000000001d4       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .ARM.attributes
+                0x0000000000000208       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_sqrt.o)
+ .ARM.attributes
+                0x000000000000023c       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+ .ARM.attributes
+                0x0000000000000270       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .ARM.attributes
+                0x00000000000002a4       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+ .ARM.attributes
+                0x00000000000002d8       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
+ .ARM.attributes
+                0x000000000000030c       0x32 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-s_lib_ver.o)
+ .ARM.attributes
+                0x000000000000033e       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .ARM.attributes
+                0x0000000000000372       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_finite.o)
+ .ARM.attributes
+                0x00000000000003a6       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .ARM.attributes
+                0x00000000000003da       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_nan.o)
+ .ARM.attributes
+                0x000000000000040e       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_rint.o)
+ .ARM.attributes
+                0x0000000000000442       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+ .ARM.attributes
+                0x0000000000000476       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-errno.o)
+ .ARM.attributes
+                0x00000000000004aa       0x32 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-impure.o)
+
+.debug_frame    0x0000000000000000      0x5dc
+ .debug_frame   0x0000000000000000       0xa4 /workspace/nutekt-digital/Crickets/build/obj/_unit.o
+ .debug_frame   0x00000000000000a4      0x108 /workspace/nutekt-digital/Crickets/build/obj/Crickets.o
+ .debug_frame   0x00000000000001ac       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+ .debug_frame   0x00000000000001e0       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+ .debug_frame   0x0000000000000214       0x38 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+ .debug_frame   0x000000000000024c       0x3c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_exp.o)
+ .debug_frame   0x0000000000000288       0x54 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_pow.o)
+ .debug_frame   0x00000000000002dc       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_exp.o)
+ .debug_frame   0x00000000000002fc       0x80 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_pow.o)
+ .debug_frame   0x000000000000037c       0x44 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .debug_frame   0x00000000000003c0       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_sqrt.o)
+ .debug_frame   0x00000000000003e0       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+ .debug_frame   0x0000000000000400       0x5c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .debug_frame   0x000000000000045c       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+ .debug_frame   0x000000000000047c       0x50 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
+ .debug_frame   0x00000000000004cc       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .debug_frame   0x00000000000004ec       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_finite.o)
+ .debug_frame   0x000000000000050c       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .debug_frame   0x000000000000052c       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_nan.o)
+ .debug_frame   0x000000000000054c       0x34 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_rint.o)
+ .debug_frame   0x0000000000000580       0x3c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+ .debug_frame   0x00000000000005bc       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-errno.o)
+
+Cross Reference Table
+
+Symbol                                            File
+ResFilterFM::process(float)                       /workspace/nutekt-digital/Crickets/build/obj/Crickets.o
+__errno                                           /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-errno.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_pow.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_exp.o)
+__fdlib_version                                   /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-s_lib_ver.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_pow.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_exp.o)
+__ieee754_expf                                    /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_exp.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_exp.o)
+__ieee754_powf                                    /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_pow.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_pow.o)
+__ieee754_rem_pio2f                               /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+__ieee754_sqrtf                                   /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_sqrt.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_pow.o)
+__init_array_end                                  /workspace/nutekt-digital/Crickets/build/obj/_unit.o
+__init_array_start                                /workspace/nutekt-digital/Crickets/build/obj/_unit.o
+__kernel_cosf                                     /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+__kernel_rem_pio2f                                /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+__kernel_sinf                                     /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+__kernel_tanf                                     /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+_bss_end                                          /workspace/nutekt-digital/Crickets/build/obj/_unit.o
+_bss_start                                        /workspace/nutekt-digital/Crickets/build/obj/_unit.o
+_entry                                            /workspace/nutekt-digital/Crickets/build/obj/_unit.o
+_global_impure_ptr                                /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-impure.o)
+_hook_cycle                                       /workspace/nutekt-digital/Crickets/build/obj/Crickets.o
+                                                  /workspace/nutekt-digital/Crickets/build/obj/_unit.o
+_hook_init                                        /workspace/nutekt-digital/Crickets/build/obj/Crickets.o
+                                                  /workspace/nutekt-digital/Crickets/build/obj/_unit.o
+_hook_mute                                        /workspace/nutekt-digital/Crickets/build/obj/_unit.o
+_hook_off                                         /workspace/nutekt-digital/Crickets/build/obj/Crickets.o
+                                                  /workspace/nutekt-digital/Crickets/build/obj/_unit.o
+_hook_on                                          /workspace/nutekt-digital/Crickets/build/obj/Crickets.o
+                                                  /workspace/nutekt-digital/Crickets/build/obj/_unit.o
+_hook_param                                       /workspace/nutekt-digital/Crickets/build/obj/Crickets.o
+                                                  /workspace/nutekt-digital/Crickets/build/obj/_unit.o
+_hook_value                                       /workspace/nutekt-digital/Crickets/build/obj/_unit.o
+_impure_ptr                                       /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-impure.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-errno.o)
+cosf                                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+                                                  /workspace/nutekt-digital/Crickets/build/obj/Crickets.o
+expf                                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_exp.o)
+                                                  /workspace/nutekt-digital/Crickets/build/obj/Crickets.o
+fabsf                                             /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_tan.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_pow.o)
+finitef                                           /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_finite.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_pow.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_exp.o)
+floorf                                            /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+highpass                                          /workspace/nutekt-digital/Crickets/build/obj/Crickets.o
+lowpass1                                          /workspace/nutekt-digital/Crickets/build/obj/Crickets.o
+lowpass2                                          /workspace/nutekt-digital/Crickets/build/obj/Crickets.o
+midi_to_hz_lut_f                                  /workspace/nutekt-digital/Crickets/build/obj/Crickets.o
+nanf                                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_nan.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_pow.o)
+powf                                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_pow.o)
+                                                  /workspace/nutekt-digital/Crickets/build/obj/Crickets.o
+rintf                                             /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_rint.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-wf_pow.o)
+scalbnf                                           /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+                                                  /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_pow.o)
+sinf                                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+                                                  /workspace/nutekt-digital/Crickets/build/obj/Crickets.o
+tanf                                              /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_tan.o)
+                                                  /workspace/nutekt-digital/Crickets/build/obj/Crickets.o
