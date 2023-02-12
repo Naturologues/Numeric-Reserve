@@ -13,7 +13,7 @@ You’ll find information about the code used in the logue SDK, the oscillators 
 | Oscillator     | Description                                             | Parameter A                      | Parameter B                                       |
 | :------------: | :-----------------------------------------------------: | :------------------------------: | :-----------------------------------------------: |
 | Bells          | Additive synthesis oscillator with amplitude modulation | Modulation depth                 | Modulation speed                                  |
-| Wind           | Subtractive synthesis oscillator with resonant filters  | Resonance's amplitude on the pitch | Wind movements                                    |
+| Wind           | Subtractive synthesis oscillator with resonant filters  | Wind movements                   | Amplitude of the pitched resonnance               |
 | Crickets       | Source-filter model oscillator                          | Resonance frequency control      | Shape and speed of the impulse train              |
 | Clock          | Impulse additive synthesis oscillator                   | Impulse rate                     | Pulse pitch frequencies (Random attribution)      |
 
