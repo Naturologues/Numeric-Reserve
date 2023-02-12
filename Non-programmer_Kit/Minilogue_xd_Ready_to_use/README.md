@@ -1,3 +1,16 @@
+# Caution !
+
+The Minilogue xd patches are not yet fully functional, and are distributed on an experimental basis. For the time being we now know that these problems occur systematically :
+
+- The Bells patch seems to saturate when 3 or 4 voices are used in polyphony.
+- The shape and shift + shape knobs of the Bells patch seems to degrade the sound depending on their settings.
+- The Wind and the Crickets patches seems to bug the Minilogue xd, so that the sound wave display screen lags, and the sound does not stop even after changing the synthesizer preset. Be careful using them.
+
+We distribute our patches insofar as certain people would be interested in carrying out their development ; but in the same way as Korg, we do not consider ourselves responsible for any material damage whatsoever. In general, be careful when using a third-party patch.
+
+Note that the ADSR envelope and all the options of the Korg synthesizer can always be used to adjust the sound of the patch to your use.
+
+
 # Bells
 
 Bells is an additive synthesis oscillator, with an amplitude and frequencies modulation options.
@@ -25,5 +38,3 @@ Use the knob Shape to adjust the pulse velocity, and the knob Shape+Shift to ran
 When the knob Shape is setup to 0, the rate of the pulse is of 60 ms, while if the knob is setup to 1, the pulse rate will be of 2000 ms.
 Moving the knob Shape+Shift at high speed while the Shape parameter is at high rate can sound like water and produce some interesting results.
 The key pressed on the keyboard has no influence on the sound of the synthesizer.
-
-Note that the ADSR envelope and all the options of the Korg synthesizer can always be used to adjust the sound of the patch to your use.
