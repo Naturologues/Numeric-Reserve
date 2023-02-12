@@ -14,8 +14,8 @@ You’ll find information about the code used in the logue SDK, the oscillators 
 | :------------: | :-----------------------------------------------------: | :------------------------------: | :-----------------------------------------------: |
 | Bells          | Additive synthesis oscillator with amplitude modulation | Modulation depth                 | Modulation speed                                  |
 | Wind           | Subtractive synthesis oscillator with resonant filters  | Resonance amplitude on the pitch | Wind movements                                    |
-| Crickets       | Filter source model oscillator                          | Resonance frequency control      | Shape and speed of the pulse train                |
-| Clock          | Impulse additive synthesis oscillator                   | Pulse velocity                   | Pulse pitch frequencies (Random attribution)      |
+| Crickets       | Filter source model oscillator                          | Resonance frequency control      | Shape and speed of the impulse train              |
+| Clock          | Impulse additive synthesis oscillator                   | Impulse rate                     | Pulse pitch frequencies (Random attribution)      |
 
 ## How to install
  - Install and launch the NTS-1 digital librarian (https://www.korg.com/us/support/download/software/0/832/4424/) (or the Minilogue xd librarian [https://www.korg.com/us/support/download/software/0/811/4222/])
