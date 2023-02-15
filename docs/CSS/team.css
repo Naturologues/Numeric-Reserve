@@ -44,10 +44,10 @@ td {
 
 .personne
 {
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 170px;
     object-fit: cover;
-    object-position: 100% -65px;
+    object-position: 100% -80px;
     border-radius: 50%;
 }
 
