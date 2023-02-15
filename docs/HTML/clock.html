@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>WIND OSC</title>
+    <title>CLOCK OSC</title>
     <link rel="icon" href="../IMG/logo_Sandie.svg" type="image/icon type">
     <!-- libs -->
     <script src="../libs/wab-node.js"></script>
@@ -14,7 +14,7 @@
     <script src="../libs/jszip.min.js"></script>
 
     <!-- logue -->
-    <script src="../JS/wi-logue-synth.js"></script>
+    <script src="../JS/cl-logue-synth.js"></script>
     <script src="../JS/logue-node.js"></script>
     <script src="../JS/logue-gui.js"></script>
     <link rel="stylesheet" href="../CSS/header.css">
@@ -33,7 +33,7 @@ function main () {
 <header>
     <h1>Numeric-Reserve</h1>
     <nav>
-        <a href="index.html">Home</a>
+        <a href="../index.html">Home</a>
         <a href="team.html">The team</a>
         <a href="links.html">Extra Links</a>
     </nav>
@@ -44,17 +44,18 @@ function main () {
         <table>
             <tr>
                 <td id="left">
-                    <h1>Wind web simulator</h1>
-                    <h2>Oscillateur &agrave synth&egrave;se soustractive</h2>
+                    <h1>Clock web simulator</h1>
+                    <h2>Oscillateur d&apos;alarme &ldquo;Orlogue&rdquo;</h2>
                     <div class="knobExplain">
                         <br><br>
-                        Knob A : Mouvement du vent
+                        Knob A : Contr&ocirc;le de la vitesse
                         <br><br>
-                        Knob B : Amplitude de r&eacute;sonnance de la note jou&eacute;e
+                        Knob B : Contr&ocirc;le de la note
                     </div>
                 </td>
                 <td id="right">
                     <div id="container">
+
                         <div>
                             <div id="topbar">
                                 <label id="oscreload" onclick="synth.reload('osc')">OSCILLATOR</label><select id="osc" onchange="synth.setOscType(this.value)"></select>
@@ -62,6 +63,7 @@ function main () {
                                 <label>OUT LEVEL</label><input type="range" min="0" max="100" value="20" oninput="synth.masterGain = this.value/100">
                                 <div class="right"><label>MIDI</label><select id="midiIn" onchange="onmidi(this.value)"></select></div>
                             </div>
+
                             <div id="frontpanel">
                                 <div id="plots">
                                     <div id="scope" class="plot"></div>
@@ -85,13 +87,16 @@ function main () {
                                     <wab-svgknob label="LFO" id="lfo"></wab-svgknob>-->
                                 </div>
                             </div>
+
                             <div id="keys"></div>
                         </div>
                         <div id="overlay">
                             <div>click to start web audio</div>
                             <div class="note">(deactive HOLD for note offs)</div>
                         </div>
+
                     </div>
+
                     <div id="bottomline">
                         <div>requires Chrome/Opera/Vivaldi</div>
                         <div class="credit">logue-sdk commit da587f5 (KORG), wab port (Jari)</div>
