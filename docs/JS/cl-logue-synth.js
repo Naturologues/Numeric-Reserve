@@ -38,7 +38,7 @@ KORG.LogueSynth = class LogueSynth extends WAB.MonoSynth
 
                 let def = oscDefs[i];
                 let url = oscDefs.url;
-                if (def.man != "") url += def.man + "../"
+                if (def.man != "") url += def.man + "/"
 
                 // -- create oscillator
                 let osc = new KORG.LogueOsc(actx);
