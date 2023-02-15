@@ -1,0 +1,36 @@
+.image_h
+{
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+    object-position: 100% 0;
+    background-color: rgb(128,128,128, .1);
+}
+
+.tableau
+{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pitch{
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    padding:20px;
+    font-size: larger;
+    text-align: justify;
+}
+
+.Oscs
+{
+
+}
+
+.bandcamp
+{
+    width: 70%;
+    margin: 0 auto;
+    padding:20px;
+}

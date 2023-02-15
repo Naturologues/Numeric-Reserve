@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CLOCK OSC</title>
+    <link rel="icon" href="../IMG/logo_Sandie.svg" type="image/icon type">
+    <!-- libs -->
+    <script src="../libs/wab-node.js"></script>
+    <script src="../libs/wab-monosynth.js"></script>
+    <script src="../libs/wab-svgknob.js"></script>
+    <script src="../libs/wab-scope.js"></script>
+    <script src="../libs/wab-spect.js"></script>
+    <script src="../libs/wab-keys.js"></script>
+    <script src="../libs/wab-utils.js"></script>
+    <script src="../libs/jszip.min.js"></script>
+
+    <!-- logue -->
+    <script src="../JS/cl-logue-synth.js"></script>
+    <script src="../JS/logue-node.js"></script>
+    <script src="../JS/logue-gui.js"></script>
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/logue.css">
+</head>
+<script>
+var actx,synth;
+
+function main () {
+    actx  = new AudioContext();
+    synth = new KORG.LogueSynth();
+    synth.init();
+}
+</script>
+
+<header>
+    <h1>Numeric-Reserve</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="team.html">The team</a>
+        <a href="links.html">Extra Links</a>
+    </nav>
+</header>
+
+<body onload="main()">
+    <div class="centerContent">
+        <table>
+            <tr>
+                <td id="left">
+                    <h1>Clock web simulator</h1>
+                    <h2>Oscillateur d&apos;alarme &ldquo;Orlogue&rdquo;</h2>
+                    <div class="knobExplain">
+                        <br><br>
+                        Knob A : Contr&ocirc;le de la vitesse
+                        <br><br>
+                        Knob B : Contr&ocirc;le de la note
+                    </div>
+                </td>
+                <td id="right">
+                    <div id="container">
+
+                        <div>
+                            <div id="topbar">
+                                <label id="oscreload" onclick="synth.reload('osc')">OSCILLATOR</label><select id="osc" onchange="synth.setOscType(this.value)"></select>
+                                <div class="toggle active" id="hold">HOLD</div>
+                                <label>OUT LEVEL</label><input type="range" min="0" max="100" value="20" oninput="synth.masterGain = this.value/100">
+                                <div class="right"><label>MIDI</label><select id="midiIn" onchange="onmidi(this.value)"></select></div>
+                            </div>
+
+                            <div id="frontpanel">
+                                <div id="plots">
+                                    <div id="scope" class="plot"></div>
+                                    <div id="spect" class="plot"></div>
+                                    <div id="spectscale">
+                                        <div class="toggle active">5</div>
+                                        <div class="toggle">10</div>
+                                        <div class="toggle">15</div>
+                                        <div class="toggle">20</div>
+                                    </div>
+                                </div>
+                                <div id="knobs">
+                                    <wab-svgknob label="SHAPE" id="shape"></wab-svgknob>
+                                    <wab-svgknob label="SSHAPE" id="sshape"></wab-svgknob>
+                                    <!--
+                                    <wab-svgknob label="PARAM 2"></wab-svgknob>
+                                    <wab-svgknob label="PARAM 3"></wab-svgknob>
+                                    <wab-svgknob label="PARAM 4"></wab-svgknob>
+                                    <wab-svgknob label="PARAM 5"></wab-svgknob>
+                                    <wab-svgknob label="PARAM 6"></wab-svgknob>
+                                    <wab-svgknob label="LFO" id="lfo"></wab-svgknob>-->
+                                </div>
+                            </div>
+
+                            <div id="keys"></div>
+                        </div>
+                        <div id="overlay">
+                            <div>click to start web audio</div>
+                            <div class="note">(deactive HOLD for note offs)</div>
+                        </div>
+
+                    </div>
+
+                    <div id="bottomline">
+                        <div>requires Chrome/Opera/Vivaldi</div>
+                        <div class="credit">logue-sdk commit da587f5 (KORG), wab port (Jari)</div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

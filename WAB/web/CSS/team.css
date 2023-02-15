@@ -1,0 +1,58 @@
+.txt
+{
+    position: relative;
+    /*width: 70%;*/
+    margin: 0 auto;
+    padding:20px;
+    padding-top: 0;
+    text-align: justify;
+    font-size: larger;
+}
+
+.centerContent{
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgb(128,128,128, .3);
+}
+
+#teamName {
+    text-align: center;
+    padding-top: 20px;
+}
+
+table {
+  table-layout: fixed ;
+  width: 100% ;
+}
+td {
+  width: 33.3% ;
+}
+
+.equipe
+{
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divEquipe
+{
+    margin-top: 20px;
+    margin-bottom: 3px;
+}
+
+.personne
+{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: 100% -65px;
+    border-radius: 50%;
+}
+
+.description
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}

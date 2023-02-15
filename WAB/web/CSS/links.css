@@ -1,0 +1,21 @@
+.image_h{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: 100% 0;
+    padding: 20px;
+}
+
+.centerContent{
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgb(128,128,128, .3);
+}
+em{
+    font-weight: bold;
+}
+
+
+.tableau{
+    margin-top: 20px;
+}
